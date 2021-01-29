@@ -18,15 +18,12 @@
     <ClCompile Include="com\Tests\EngineTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="com\EngineAPI\API.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="com\EngineAPI\API.h">
+    <ClInclude Include="com\EngineAPI\Events\EventHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="com\Resources\Keyboard\KeyboardInt.h">
+    <ClInclude Include="com\EngineAPI\Setup\Includes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

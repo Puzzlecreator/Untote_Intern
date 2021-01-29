@@ -141,12 +141,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="com\EngineAPI\API.cpp" />
     <ClCompile Include="com\Tests\EngineTest.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="com\EngineAPI\API.h" />
-    <ClInclude Include="com\Resources\Keyboard\KeyboardInt.h" />
+    <ClInclude Include="com\EngineAPI\Events\EventHandler.h" />
+    <ClInclude Include="com\EngineAPI\Setup\Includes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
