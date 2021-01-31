@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="com\EngineAPI\API\APIHOST.h" />
+    <ClInclude Include="com\EngineAPI\API\Runtime\Runtime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="com\Tests\EngineTest.cpp" />
+    <ClCompile Include="com\EngineAPI\API\Runtime\Runtime.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -140,13 +148,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="com\Tests\EngineTest.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="com\EngineAPI\Events\EventHandler.h" />
-    <ClInclude Include="com\EngineAPI\Setup\Includes.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

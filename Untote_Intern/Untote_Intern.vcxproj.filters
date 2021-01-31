@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="com\EngineAPI\API\APIHOST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\EngineAPI\API\Runtime\Runtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="com\Tests\EngineTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="com\EngineAPI\Events\EventHandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="com\EngineAPI\Setup\Includes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="com\EngineAPI\API\Runtime\Runtime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
