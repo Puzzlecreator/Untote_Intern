@@ -20,7 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="com\EngineAPI\API\APIHOST.h" />
+    <ClInclude Include="com\EngineAPI\API\Arrays.h" />
     <ClInclude Include="com\EngineAPI\API\Runtime\Runtime.h" />
+    <ClInclude Include="com\Defs\RuntimeDefs.h" />
+    <ClInclude Include="com\Includes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="com\Tests\EngineTest.cpp" />

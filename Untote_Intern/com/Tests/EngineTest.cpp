@@ -1,5 +1,9 @@
-#include "EngineAPI/API/APIHOST.h"
+// Include Statements
+#include <Includes.h>
 
-int main() {
+using RS::APIHOST;
 
+// Start of the project
+int main(void) {
+	APIHOST::Window(0, 600, 480, "Title");
 }

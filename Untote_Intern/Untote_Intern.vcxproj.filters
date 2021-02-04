@@ -21,6 +21,15 @@
     <ClInclude Include="com\EngineAPI\API\Runtime\Runtime.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="com\Defs\RuntimeDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com\EngineAPI\API\Arrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="com\Tests\EngineTest.cpp">
